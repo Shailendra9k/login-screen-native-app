@@ -16,7 +16,7 @@ const { width, height } = Dimensions.get("window");
 
 const background = require("./bg.jpg");
 const lock = require("./lock.jpg");
-const login = require("./login.jpg");
+const login = require("./login1.png");
 const user = require("./user.jpg");
 
 export default class LoginScreen extends Component {
@@ -31,7 +31,6 @@ export default class LoginScreen extends Component {
           <View style={styles.logoContainer}>
             <Image source={login} style={styles.logo} resizeMode="contain" />
           </View>
-
           <View style={styles.wrapper}>
             <View style={styles.inputWrapper}>
               <View style={styles.iconWrapper}>
@@ -43,7 +42,6 @@ export default class LoginScreen extends Component {
                 style={styles.input}
               />
             </View>
-
             <View style={styles.inputWrapper}>
               <View style={styles.iconWrapper}>
                 <Image source={lock} style={styles.icon} resizeMode="contain" />
@@ -62,17 +60,16 @@ export default class LoginScreen extends Component {
             </TouchableOpacity>
             <TouchableOpacity>
               <View style={styles.button}>
-                <Text style={styles.buttonText}>SignIn</Text>
+                <Text style={styles.buttonText}> SignIn </Text>
               </View>
             </TouchableOpacity>
           </View>
-
           <View style={styles.container}>
             <View style={styles.signUpWrapper}>
-              <Text style={styles.account}>You can also</Text>
+              <Text style={styles.account}> You can also </Text>
               <TouchableOpacity>
                 <View>
-                  <Text style={styles.signUpLink}>Sign Up</Text>
+                  <Text style={styles.signUpLink}> Sign Up </Text>
                 </View>
               </TouchableOpacity>
             </View>
