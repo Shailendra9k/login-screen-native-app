@@ -15,9 +15,9 @@ import {
 const { width, height } = Dimensions.get("window");
 
 const background = require("./bg.jpg");
-const lock = require("./lock.jpg");
+const lock = require("./lock1.png");
 const login = require("./login1.png");
-const user = require("./user.jpg");
+const user = require("./user1.png");
 
 export default class LoginScreen extends Component {
   render() {
