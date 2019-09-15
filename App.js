@@ -4,6 +4,10 @@ import {
   Text,
   View,
   TouchableHighlight,
+  Dimensions,
+  Button,
+  TouchableOpacity,
+  Image,
   TextInput
 } from "react-native";
 import LoginScreen from "./screen/login";
@@ -20,9 +24,6 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: "#3498db",
-    alignItems: "center",
-    justifyContent: "center"
+    flex: 1
   }
 });
