@@ -61,8 +61,8 @@ export default class LoginScreen extends Component {
               </View>
             </TouchableOpacity>
             <TouchableOpacity>
-              <View>
-                <Text style={styles.button}>SignIn</Text>
+              <View style={styles.button}>
+                <Text style={styles.buttonText}>SignIn</Text>
               </View>
             </TouchableOpacity>
           </View>
@@ -118,5 +118,39 @@ const styles = StyleSheet.create({
   icon: {
     height: 20,
     width: 20
+  },
+  input: {
+    flex: 1,
+    paddingHorizontal: 10
+  },
+  button: {
+    backgroundColor: "#41eba3",
+    paddingVertical: 20,
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 30
+  },
+  buttonText: {
+    color: "#ffffff",
+    fontSize: 20
+  },
+  forgotPassword: {
+    color: "#c1c1c1",
+    backgroundColor: "transparent",
+    textAlign: "right",
+    paddingRight: 20
+  },
+  signUpWrapper: {
+    backgroundColor: "transparent",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center"
+  },
+  account: {
+    color: "#c1c1c1"
+  },
+  signUpLink: {
+    color: "#ffffff",
+    marginLeft: 20
   }
 });
